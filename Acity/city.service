@@ -1,0 +1,12 @@
+[Unit]
+Description= flask append
+After= network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory= /home/ubuntu/idris/idrisbot
+ExecStart=/usr/bin/python3 /home/ubuntu/idris/idrisbot/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

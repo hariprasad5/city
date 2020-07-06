@@ -1,0 +1,184 @@
+{
+  "intents": [
+    {
+      "tag": "main menu",
+      "patterns": [ "give me the menu", "show me the main menu", "where is the main menu", "display main menu", "help" ],
+      "responses": [ "Please select one of the below options or ask your own question " ],
+      "action": "",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t1",
+      "patterns": [ "Good morning", "good mornin", "gud morning", "mornin", "gm" ],
+      "responses": [ "Good Morning <br> Welcome to Ahad Builders help desk <br> Ahad City in Hampapura, Mysore by Ahad Builders is a residential project. The project offers Land with perfect combination of contemporary architecture and features to provide comfortable living." ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t2",
+      "patterns": [ "Good Afternoon", "noon" ],
+      "responses": [ "Good Afternoon <br> Welcome to Ahad Builders help desk <br> Ahad City in Hampapura, Mysore by Ahad Builders is a residential project.The project offers Land with perfect combination of contemporary architecture and features to provide comfortable living." ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity","Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t3",
+      "patterns": [ "Good Evening", "ge" ],
+      "responses": [ "Good Evening <br> Welcome to Ahad Builders help desk <br> Ahad City in Hampapura, Mysore by Ahad Builders is a residential project. The project offers Land with perfect combination of contemporary architecture and features to provide comfortable living." ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity","Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t4",
+      "patterns": [ "Good Night", "night", "gn" ],
+      "responses": [ "Good Night <br> Welcome to Ahad Builders help desk <br> Ahad City in Hampapura, Mysore by Ahad Builders is a residential project. The project offers Land with perfect combination of contemporary architecture and features to provide comfortable living." ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity","Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t5",
+      "patterns": [ "Hi there", "Is anyone there?", "hello there", "how can you help me", "hi", "hello", "hey", "good day", "who are you" ],
+      "responses": [ "Hello <br> Welcome to Ahad Builders help desk <br> Ahad City in Hampapura, Mysore by Ahad Builders is a residential project. The project offers Land with perfect combination of contemporary architecture and features to provide comfortable living." ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity","Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t6",
+      "patterns": [ "How are you", "Hows your day going", "hows life" ],
+      "responses": [ "I am fine thanks for asking <br> Welcome to Ahad Builders help desk <br> Ahad City in Hampapura, Mysore by Ahad Builders is a residential project. The project offers Land with perfect combination of contemporary architecture and features to provide comfortable living." ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity","Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [ "do you have", "give me", "can you help me in planning a date","no","not","i cant read","how is the climate","what is the time/date","what is my pet name","where am i","what is the capital","where is my bike", "is it raining","-","+","*",":","!","Who me","who she","Who he","who it","what she","what he","bullshit","fuck","pussy","motherfucker","cunt","nigga","gay","lesbian","LGBT","bisexual","transgender","whore","asshole","jackass"],
+      "responses": [ "We Thank you for your keen intrest, our team will reach out to you soon.<br> Please type 'Help' to explore more<br>For further details, please email us at sales@ahadbuilders.com or call at +91-7676150150. <br>We would be glad to assist you." ],
+      "action": "form",
+      "resources": "form",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadCity",  "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about ahad",
+      "patterns": [ "about", "tell me more", "i would like to hear more", "more about ahad", "company", "agency", "about ahad" ],
+      "responses": [ "About 45 years ago, we began our journey of a promising success in building houses and helping build homes. We believe we experience satisfaction in the truest sense only when our customers are happy. Nurturing a legacy of trust for 3 generations now, our promise has met Zero Missed Deadlines. Punctuality is not a lost virtue. We stand testimony to that. Steering clear of debts on our credit, we have built a Zero-Debt Company, Ahad has delivered a whopping 226 projects to about 6,480 customers. Homes raise and age families through different time spans.'Read More'" ],
+      "action": "link",
+      "resources": "https://ahad's website",
+      "nextpattern": "",
+      "buttons": [ "Brochure", "About AhadCity",  "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about AhadCity",
+      "patterns": [ "project details", "recent images", "more about project details", "project dets", "what is ahad city", "ahad city", "attributes", "characteristic", "specifics", "about city","city" ],
+      "responses": [ "The real estate market of Mysore shows positivity with increasing demands from buyers and supply from developers. With improving physical infrastructure that better connects the micro-markets of the city, Mysore has seen a positive impact on the realty market.Other factors that support the real estate of this city are presence of excellent healthcare centers, educational institutes and recreational centers in almost every part of the city. " ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": ":::---",
+      "buttons": [ "About Ahad", "Brochure", "Location", "Amenities", "Project Progress" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [ ":::--- amenities", ":::--- amenities offered", ":::--- amenities present", ":::--- facilities provided", ":::--- facility", ":::--- features", ":::--- offered", ":::--- provided", ":::--- project amenities" ],
+      "responses": [ " will be updated soon" ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "Location", "Project Progress" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "project_progress",
+      "patterns": [ ":::--- project progress", ":::--- how much has been completed", ":::--- whats the progress", ":::--- status", ":::--- updates", ":::--- developments", ":::--- improvements", ":::--- progress" ],
+      "responses": [ "Ahad Opus is an exclusive residential offering of luxurious 2 & 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres just 100 M from Main Sarjapur road. It is sandwiched between the upcoming (nearing completion) Wipro Campus and the RGA Tech park. This meticulously planned project offers you maximum open space with panoramic views and a plethora of lifestyle amenities." ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure",  "Location", "Amenities" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "location",
+      "patterns": [ "location", "where is it located", "it's location" ],
+      "responses": [ "Ahad City is one of the popular residential developments in Mahadevapura Road, neighborhood of Mysore. It is among the completed projects of Ahad Builders Pvt. Ltd.. It has lavish yet thoughtfully designed residences." ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "--||--",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks"  ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "schools",
+      "patterns": [ "--||-- schools", "--||-- nearby schools", "--||-- colleges" ],
+      "responses": [ "GNANODAYA PUBLIC SCHOOL AND COMPOSITE P U COLLEGE: 13.1KM <br> Morarji Desai School And College Varakodu, Mysore: 13.6KM <br> B.T.L School and P U College: 10.4KM <br> JSS Dental College: 11.6KM <br> GSS School and PU College: 11.9KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks"  ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "hospitals",
+      "patterns": [ "--||-- hospitals", "--||-- nearby hospitals", "--||-- medical facility" ],
+      "responses": [ "Narayana Multispeciality Hospital, Mysore: 8.9KM <br> shubhodaya hospital: 9.3KM <br>  Cauvery Heart and Multispeciality Hospital: 10.2KM <br>Gopala Gowda Shanthaveri Memorial Hospital: 10.6KM <br>Rajashekar Hospital: 11.4KM <br>Columbia Asia Hospital Mysuru: 10.5KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Landmarks"  ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "techparks",
+      "patterns": [ "--||-- techparks", "--||-- nearby techparks", "--||-- techparks" ],
+      "responses": [ "Renaissance Firstface Tech Park: 20.5M <br> Silver Spirit Tech. Park: 17.0KM <br> Software Technology Parks of India: 19.3KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Hospitals", "Nearby Landmarks"  ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "landmarks",
+      "patterns": [ "--||-- landmarks", "--||-- nearby landmarks", "--||-- notable places", "--||-- nearby places","--||-- gaming-zones", "--||-- nearby gaming-zones", "--||-- gaming zones", "--||-- leisure activity", "--||-- game","--||-- malls", "--||-- nearby malls", "--||-- shopping centres", "--||-- plaza", "--||-- market","--||-- eateries", "--||-- nearby eateries", "--||-- Food", "--||-- hostels", "--||-- restaurant", "--||-- hungry" ],
+      "responses": [ "Ruchi Sagar Hotel: 8KM<br> Mysuru Dose Mane: 10KM <br>Samskrutika Tindi: 10.8KM <br> Forum Centre City Mall: 9.6KM <br> Garuda Mall Mysuru: 12.1KM<br>Mall Of Mysore: 14KM<br> Game On Gaming Lounge: 10.4 KM<br> SMAAASH Zone: 14.2KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals"],
+      "context": [ "" ]
+    },
+    {
+      "tag": "brochure",
+      "patterns": [ "get me brochure", "brochure", "can i get a brochure" ],
+      "responses": [ "Please use the below button to download the brochure" ],
+      "action": "form",
+      "resources": "render form",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "About AhadCity", "Location" ],
+      "context": [ "" ]
+    }
+  ]
+}
