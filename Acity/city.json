@@ -93,7 +93,7 @@
     {
       "tag": "about AhadCity",
       "patterns": [ "project details", "recent images", "more about project details", "project dets", "what is ahad city", "ahad city", "attributes", "characteristic", "specifics", "about city","city" ],
-      "responses": [ "The real estate market of Mysore shows positivity with increasing demands from buyers and supply from developers. With improving physical infrastructure that better connects the micro-markets of the city, Mysore has seen a positive impact on the realty market.Other factors that support the real estate of this city are presence of excellent healthcare centers, educational institutes and recreational centers in almost every part of the city. " ],
+      "responses": [ "Ahad city brings you the comfort with luxury of nature in 3BHK Villas with a private garden area for the relaxed weekends. These are a duplex villas with a grand terrace all by yourself keeping your lives larger. Serenity is a bliss and Ahad City aspires to present you the very same. See video - here" ],
       "action": "image",
       "resources": "image link",
       "nextpattern": ":::---",
@@ -103,7 +103,7 @@
     {
       "tag": "amenities",
       "patterns": [ ":::--- amenities", ":::--- amenities offered", ":::--- amenities present", ":::--- facilities provided", ":::--- facility", ":::--- features", ":::--- offered", ":::--- provided", ":::--- project amenities" ],
-      "responses": [ " will be updated soon" ],
+      "responses": [ "Imagine a weekend amid lush green by a flowing stream of water. Built on 39+ acres (Phase 1), Ahad City gives you just that forever Aiming to provide a serene living area, the project offers premium Villa Plots/Villas, away from the city chaos. With spri different flora and fauna around, this place gives a vibe of a lavish resort. A perfect natural retreat for you!<br><br>Ahad city brings you the comfort with luxury of nature for the relaxed weekends, Serenity is a bliss and Ahad City aspires.<br><br>" ],
       "action": "image",
       "resources": "image link",
       "nextpattern": "",
@@ -172,7 +172,7 @@
     },
     {
       "tag": "brochure",
-      "patterns": [ "get me brochure", "brochure", "can i get a brochure" ],
+      "patterns": [ "get me brochure", "brochure", "can i get a brochure","plot price","plot amount","plot rate", "site"],
       "responses": [ "Please use the below button to download the brochure" ],
       "action": "form",
       "resources": "render form",
